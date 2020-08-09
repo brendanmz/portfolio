@@ -1,0 +1,41 @@
+.layout {
+  background: linear-gradient(180deg, #000 0%, #c48408 100%);
+  background-size: 400% 400%;
+  -webkit-animation: gradient-pulse 12s ease infinite;
+  -moz-animation: gradient-pulse 12s ease infinite;
+  animation: gradient-pulse 12s ease infinite;
+}
+
+@-webkit-keyframes gradient-pulse {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
+@-moz-keyframes gradient-pulse {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
+@keyframes gradient-pulse {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
