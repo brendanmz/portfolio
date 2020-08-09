@@ -1,13 +1,11 @@
-import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
+import { H1 } from './H1'
 
 const Header = ({ siteTitle }) => (
   <header>
     <div>
-      <h1>
-        <Link to='/'>{siteTitle}</Link>
-      </h1>
+      <H1>{siteTitle}</H1>
     </div>
   </header>
 )
