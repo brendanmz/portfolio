@@ -9,6 +9,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 import { GlobalStyle } from '../styles/global'
+import '../styles/gradient-animation.css'
 
 import Header from './header'
 
@@ -26,8 +27,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
+      <div className='bg-gradient'>
+        <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
