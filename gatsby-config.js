@@ -15,6 +15,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -30,11 +31,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `poppins`,
-          `comfortaa`,
-          `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
-        ],
+        fonts: [`poppins\:200,400,700`, `comfortaa`],
         display: 'swap',
       },
     },
