@@ -5,8 +5,8 @@ export const P = styled.p`
   color: ${theme.colors.textPrimary};
   font-weight: 200;
   font-size: 1.1875rem;
-  line-height: 1.875rem;
+  line-height: 2em;
   letter-spacing: 0.025em;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
   max-width: 33rem;
 `
