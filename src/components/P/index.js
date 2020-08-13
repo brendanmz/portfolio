@@ -7,4 +7,6 @@ export const P = styled.p`
   font-size: 1.1875rem;
   line-height: 1.875rem;
   letter-spacing: 0.025em;
+  margin-bottom: 1.5rem;
+  max-width: 33rem;
 `
