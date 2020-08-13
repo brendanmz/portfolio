@@ -12,6 +12,18 @@ import { GlobalStyle } from '../styles/global'
 import '../styles/gradient-animation.css'
 
 import Header from './header'
+import { Footer } from './Footer'
+import styled from 'styled-components/macro'
+import { theme } from '../styles/theme'
+
+const ContentWrapper = styled.div`
+  max-width: 75rem;
+  padding: 0 1rem;
+
+  @media (min-width: ${theme.breakpoints.mobile}px) {
+    margin: 0 auto;
+  }
+`
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -29,12 +41,10 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <div className='bg-gradient'>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href='https://www.gatsbyjs.org'>Gatsby</a>
-        </footer>
+        <ContentWrapper>
+          <main>{children}</main>
+          <Footer>© {new Date().getFullYear()} Brendan Moratz</Footer>
+        </ContentWrapper>
       </div>
     </>
   )
