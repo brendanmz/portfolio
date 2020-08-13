@@ -1,9 +1,9 @@
 .bg-gradient {
   background: linear-gradient(180deg, #000 0%, #c48408 100%);
   background-size: 400% 400%;
-  -webkit-animation: gradient-pulse 12s ease infinite;
-  -moz-animation: gradient-pulse 12s ease infinite;
-  animation: gradient-pulse 12s ease infinite;
+  -webkit-animation: gradient-pulse 6s ease infinite;
+  -moz-animation: gradient-pulse 6s ease infinite;
+  animation: gradient-pulse 6s ease infinite;
 }
 
 @-webkit-keyframes gradient-pulse {
