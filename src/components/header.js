@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => (
         {/* <BorderWrapper /> */}
       </StyledBackgroundSection>
     </Wrapper>
-    <TitleWrapper className='puff-in-left'>
+    <TitleWrapper className='text-focus-in'>
       <SiteTitle />
     </TitleWrapper>
   </StyledHeader>
