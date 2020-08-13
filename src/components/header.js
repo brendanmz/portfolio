@@ -15,7 +15,7 @@ import '../styles/text-animation.css'
 //   z-index: -1;
 // `
 const TitleWrapper = styled.div`
-  width: 100vw;
+  width: 90vw;
   position: absolute;
   top: 10rem;
   left: 5vw;
