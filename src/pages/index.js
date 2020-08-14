@@ -12,6 +12,7 @@ import { AnchorButton } from '../components/A/AnchorButton'
 import { theme } from '../styles/theme'
 import { H3 } from '../components/H3'
 import { Li } from '../components/Li'
+import { A } from '../components/A'
 
 const BodyWrapper = styled.div`
   height: 100%;
@@ -68,32 +69,43 @@ const IndexPage = () => {
           <Column>
             <H2>Biography</H2>
             <H3>
-              Some little slogan or quote about something that’s not cheesy or
-              lame AF!
+              Taking on the impossible dream of achieving creative perfection.
             </H3>
             <P>
               I have a Bachelor’s Degree in Music Performance with a focus on
-              engineering and music production. Due to COVID my hours have been
-              severely reduced at GoOut s.r.o. and have been actively seeking a
-              Junior Front-end position with React. I have a lot to learn but I
-              have been taking lessons/pair programming with a senior developer
-              friend of mine for the past month as well as self-studying for ~15
-              hours/wk for the past 3 months.
+              engineering and music production. In the summer of 2019 I made a
+              career switch to front-end development. The idea of being able to
+              work with progressive, technical-minded creators to create
+              beautiful websites really excited me. Since then I have
+              self-studied through the help of the limitless online resources,
+              especially{' '}
+              <A href='https://www.theodinproject.com/'>The Odin Project</A>.
+            </P>
+            <P>
+              I started my career as a Javascript/PHP developer at GoOut s.r.o
+              in Prague, Czechia. During this time my skills were quite basic
+              but I learned many things, very quickly, such as jQuery, PHP(I’d
+              never used it at all before the job), WordPress, LESS, and GoOut’s
+              own framework.
             </P>
           </Column>
           <Column>
             <P>
-              I am a self-taught web developer from Canada and am very excited
-              about all the creative possibilities there are in modern web
-              development. I have been studying Front-end development through an
-              open-source project called The Odin Project and have also worked
-              as a PHP/JS Programmer at GoOut s.r.o..
+              When much of the world started locking down in March 2020, I was
+              forced into some months of reclusion where I had time to learn
+              some new tricks. It was then that I started delving deeper into
+              front-end development by learning React and the many libraries
+              that come with it, such as Redux, Styled-components, Formik, among
+              others. In this time I was building projects to improve my skills,
+              some of which can be found on my{' '}
+              <A href='https://www.github.com/brendanmz'>Github profile</A>
             </P>
             <P>
-              I am interested in continuing my learning in web development. As a
-              Junior developer I expect to spend a lot of time making mistakes
-              and having to recover fast, but this is a cycle I have become very
-              used to in both my self-study and my lifetime of musical practice.
+              Now I spend my time looking for the best Junior Front-end
+              positions as well as continuing my studies. This site is built
+              using React, Gatsby, Styled-components, Babel, Sharp,
+              React-helmet, and others. Check out the repository{' '}
+              <A href='https://github.com/brendanmz/portfolio'>here</A>.
             </P>
           </Column>
         </Row>
@@ -103,10 +115,7 @@ const IndexPage = () => {
         <Row>
           <Column>
             <H2>Expertise</H2>
-            <H3>
-              Some little slogan or quote about something that’s not cheesy or
-              lame AF!
-            </H3>
+            <H3>Just a little taste of what&#39;s to come.</H3>
             <AnchorButton href={cvData.publicURL} download>
               CV
             </AnchorButton>
