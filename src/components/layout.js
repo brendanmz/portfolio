@@ -12,7 +12,7 @@ import { GlobalStyle } from '../styles/global'
 import '../styles/gradient-animation.css'
 
 import Header from './header'
-import { Footer } from './Footer'
+import Footer from './footer'
 import styled from 'styled-components/macro'
 import { theme } from '../styles/theme'
 
@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
         <Header siteTitle={data.site.siteMetadata.title} />
         <ContentWrapper>
           <main>{children}</main>
-          <Footer>© {new Date().getFullYear()} Brendan Moratz</Footer>
+          <Footer />
         </ContentWrapper>
       </div>
     </>
