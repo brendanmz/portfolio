@@ -19,6 +19,9 @@ import { theme } from '../styles/theme'
 const ContentWrapper = styled.div`
   max-width: 75rem;
   padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media (min-width: ${theme.breakpoints.mobile}px) {
     margin: 0 auto;

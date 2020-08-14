@@ -5,6 +5,7 @@ export const StyledFooter = styled.footer`
   color: ${theme.colors.textSecondary};
   padding: 3rem 0 1rem;
   border-top: 1px solid #b0b0b0;
+  width: 100%;
 
   & > * {
     padding-right: 0.7rem;
