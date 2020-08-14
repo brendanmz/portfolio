@@ -7,6 +7,7 @@ export const AnchorButton = styled.a`
   text-align: center;
   text-decoration: none;
   border: 1px solid;
+  border-radius: 0.2rem;
   padding: 1rem;
   margin: 2.7rem 0;
   width: 11.75rem;
