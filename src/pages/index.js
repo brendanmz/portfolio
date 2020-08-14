@@ -79,7 +79,10 @@ const IndexPage = () => {
               beautiful websites really excited me. Since then I have
               self-studied through the help of the limitless online resources,
               especially{' '}
-              <A href='https://www.theodinproject.com/'>The Odin Project</A>.
+              <A href='https://www.theodinproject.com/' target='_blank'>
+                The Odin Project
+              </A>
+              .
             </P>
             <P>
               I started my career as a Javascript/PHP developer at GoOut s.r.o
@@ -98,14 +101,19 @@ const IndexPage = () => {
               that come with it, such as Redux, Styled-components, Formik, among
               others. In this time I was building projects to improve my skills,
               some of which can be found on my{' '}
-              <A href='https://www.github.com/brendanmz'>Github profile</A>
+              <A href='https://www.github.com/brendanmz' target='_blank'>
+                Github profile
+              </A>
             </P>
             <P>
               Now I spend my time looking for the best Junior Front-end
               positions as well as continuing my studies. This site is built
               using React, Gatsby, Styled-components, Babel, Sharp,
               React-helmet, and others. Check out the repository{' '}
-              <A href='https://github.com/brendanmz/portfolio'>here</A>.
+              <A href='https://github.com/brendanmz/portfolio' target='_blank'>
+                here
+              </A>
+              .
             </P>
           </Column>
         </Row>
