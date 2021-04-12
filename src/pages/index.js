@@ -68,9 +68,17 @@ const IndexPage = () => {
         <Row>
           <Column>
             <H2>Biography</H2>
-            <H3>
-              Taking on the impossible dream of achieving creative perfection.
-            </H3>
+            <H3>Practice makes better</H3>
+            <P>
+              Currently I am employed part-time as a MERN-stack developer at{' '}
+              <A href='https://limpide.net/' target='_blank'>
+                Limpide s.r.o.
+              </A>
+              , where I develop and design features for their proprietary CRM. I
+              work both on the back-end with Node, Express, MongoDB, Mongoose,
+              and on the front-end with React (hooks and class components),
+              Material-UI, Recharts, and others.
+            </P>
             <P>
               I have a Bachelor’s Degree in Music Performance with a focus on
               engineering and music production. In the summer of 2019 I made a
@@ -84,6 +92,8 @@ const IndexPage = () => {
               </A>
               .
             </P>
+          </Column>
+          <Column>
             <P>
               I started my career as a Javascript/PHP developer at GoOut s.r.o
               in Prague, Czechia. During this time my skills were quite basic
@@ -91,8 +101,6 @@ const IndexPage = () => {
               never used it at all before the job), WordPress, LESS, and GoOut’s
               own framework.
             </P>
-          </Column>
-          <Column>
             <P>
               When much of the world started locking down in March 2020, I was
               forced into some months of reclusion where I had time to learn
@@ -106,10 +114,8 @@ const IndexPage = () => {
               </A>
             </P>
             <P>
-              Now I spend my time looking for the best Junior Front-end
-              positions as well as continuing my studies. This site is built
-              using React, Gatsby, Styled-components, Babel, Sharp,
-              React-helmet, and others. Check out the repository{' '}
+              This site is built using React, Gatsby, Styled-components, Babel,
+              Sharp, React-helmet, and others. Check out the repository{' '}
               <A href='https://github.com/brendanmz/portfolio' target='_blank'>
                 here
               </A>
@@ -123,7 +129,7 @@ const IndexPage = () => {
         <Row>
           <Column>
             <H2>Expertise</H2>
-            <H3>Just a little taste of what&#39;s to come.</H3>
+            <H3>Some things I&#39;ve learned</H3>
             <AnchorButton href={cvData.publicURL} download>
               CV
             </AnchorButton>
@@ -131,23 +137,23 @@ const IndexPage = () => {
           <Column>
             <ul>
               <Li>ReactJS</Li>
-              <Li>ES6</Li>
-              <Li>Gatsby JS</Li>
+              <Li>ES7</Li>
+              <Li>MongoDB</Li>
+              <Li>Mongooose</Li>
+              <Li>Express</Li>
+              <Li>NodeJS</Li>
               <Li>Webpack</Li>
-              <Li>Babel</Li>
-              <Li>Redux</Li>
-              <Li>Redux Toolkit</Li>
-              <Li>React-router-dom</Li>
+              <Li>Git</Li>
             </ul>
           </Column>
           <Column>
             <ul>
+              <Li>Unix Terminal</Li>
               <Li>HTML5</Li>
               <Li>Styled-components</Li>
+              <Li>Material-UI</Li>
               <Li>CSS3</Li>
-              <Li>Unix Terminal</Li>
               <Li>Eslint</Li>
-              <Li>Stylelint</Li>
               <Li>Prettier</Li>
             </ul>
           </Column>
