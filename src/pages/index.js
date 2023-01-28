@@ -70,14 +70,12 @@ const IndexPage = () => {
             <H2>Biography</H2>
             <H3>Practice makes better</H3>
             <P>
-              Currently I am employed part-time as a MERN-stack developer at{' '}
-              <A href='https://limpide.net/' target='_blank'>
-                Limpide s.r.o.
+              Currently I am employed as a React developer at{' '}
+              <A href='https://www.pipedrive.com' target='_blank'>
+                Pipedrive
               </A>
-              , where I develop and design features for their proprietary CRM. I
-              work both on the back-end with Node, Express, MongoDB, Mongoose,
-              and on the front-end with React (hooks and class components),
-              Material-UI, Recharts, and others.
+              , where I have been developing features for their Leads product. I am also working on their proprietary email inbox. I have been working mainly
+               on the front-end with React (v16-17), Relay (graphql), TypeScript, and others.
             </P>
             <P>
               I have a Bachelor’s Degree in Music Performance with a focus on
@@ -100,6 +98,12 @@ const IndexPage = () => {
               but I learned many things, very quickly, such as jQuery, PHP(I’d
               never used it at all before the job), WordPress, LESS, and GoOut’s
               own framework.
+            </P>
+            <P>
+              My next step was as a MERN-stack developer at{' '}
+              <A href='https://limpide.net/' target='_blank'>Limpide s.r.o.</A>
+               where I was working both on the back-end with Node, Express, MongoDB, Mongoose,
+              Material-UI, Recharts, and others.
             </P>
             <P>
               When much of the world started locking down in March 2020, I was
