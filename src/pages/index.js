@@ -42,7 +42,7 @@ const IndexPage = () => {
       allFile(
         filter: {
           sourceInstanceName: { eq: "files" }
-          name: { eq: "BrendanMoratz-March2021CV" }
+          name: { eq: "BrendanMoratz-Jan2023CV" }
         }
       ) {
         edges {
