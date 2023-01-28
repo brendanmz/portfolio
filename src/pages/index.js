@@ -74,14 +74,16 @@ const IndexPage = () => {
               <A href='https://www.pipedrive.com' target='_blank'>
                 Pipedrive
               </A>
-              , where I have been developing features for their Leads product. I am also working on their proprietary email inbox. I have been working mainly
-               on the front-end with React (v16-17), Relay (graphql), TypeScript, and others.
+              , where I have been developing features for their Leads product. I
+              am also working on their proprietary email inbox. I have been
+              working mainly on the front-end with React (v16-17), Relay
+              (graphql), TypeScript, and others.
             </P>
             <P>
-              I have a Bachelor’s Degree in Music Performance with a focus on
-              engineering and music production. In the summer of 2019 I made a
-              career switch to front-end development. The idea of being able to
-              work with progressive, technical-minded creators to create
+              I have a Bachelor&apos;s Degree in Music Performance with a focus
+              on engineering and music production. In the summer of 2019 I made
+              a career switch to front-end development. The idea of being able
+              to work with progressive, technical-minded creators to create
               beautiful websites really excited me. Since then I have
               self-studied through the help of the limitless online resources,
               especially{' '}
@@ -90,20 +92,22 @@ const IndexPage = () => {
               </A>
               .
             </P>
-          </Column>
-          <Column>
             <P>
               I started my career as a Javascript/PHP developer at GoOut s.r.o
               in Prague, Czechia. During this time my skills were quite basic
-              but I learned many things, very quickly, such as jQuery, PHP(I’d
-              never used it at all before the job), WordPress, LESS, and GoOut’s
-              own framework.
+              but I learned many things, very quickly, such as jQuery, PHP
+              (I&apos;d never used it at all before the job), WordPress, LESS,
+              and GoOut&apos;s own framework.
             </P>
+          </Column>
+          <Column>
             <P>
               My next step was as a MERN-stack developer at{' '}
-              <A href='https://limpide.net/' target='_blank'>Limpide s.r.o.</A>
-               where I was working both on the back-end with Node, Express, MongoDB, Mongoose,
-              Material-UI, Recharts, and others.
+              <A href='https://limpide.net/' target='_blank'>
+                Limpide s.r.o.
+              </A>{' '}
+              where I was working both on the back-end with Node, Express,
+              MongoDB, Mongoose, Material-UI, Recharts, and others.
             </P>
             <P>
               When much of the world started locking down in March 2020, I was
